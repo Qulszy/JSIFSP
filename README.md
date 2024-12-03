@@ -1,3 +1,3 @@
 # JSIFSP
 
-att projeto sincrinização
+att projeto sincronização

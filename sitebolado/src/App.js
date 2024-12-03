@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Ev from './components/Evento';
+import MC from './components/MeusComponentes';
+import Soma from './components/NovoComponente';
+import PC from './components/PrimeiroComponenete';
+import TpExp from './components/TemplateExpressions';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <h1>Fundamentos do React 1</h1>
+        <PC />
+        <TpExp />
+        <MC />
+        <Ev />
+        <Soma />
+      </div>
   );
 }
 
