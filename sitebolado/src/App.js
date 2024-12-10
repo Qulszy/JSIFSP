@@ -4,6 +4,7 @@ import MC from './components/MeusComponentes';
 import Soma from './components/NovoComponente';
 import PC from './components/PrimeiroComponenete';
 import TpExp from './components/TemplateExpressions';
+import cidade from './assets/cidade.jpeg'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <MC />
         <Ev />
         <Soma />
+        <img src="/paisagem.jpg" alt="" width="300px" />
+        <img src={cidade} alt="" width="300px"/>
       </div>
   );
 }
